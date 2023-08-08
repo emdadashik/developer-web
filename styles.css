@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@500&family=Poppins:wght@300;400;500;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+
+.half-width{
+    padding: 20px;
+    float: left;
+    width: 42%;
+    overflow: hidden;
+}
+
+.orange-text{
+    color: orange;
+}
+
+.wel{
+    font-size: 50px;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.text{
+    margin: 50px;
+}
+
+.btn{
+    background-image: linear-gradient(orange,rgb(236, 211, 128));
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    clear: both;
+    margin: auto;
+    background-image: url(developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+}
+.container2{
+    display: flex;
+    clear: both;
+    margin: auto;
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.container3{
+    display: flex;
+    clear: both;
+    margin: auto;
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.card1{
+    
+    margin: 80px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 8px solid ;
+    width: 38%;
+    padding: 10px;
+    box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75);
+}
+.card2{
+    margin: 80px;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+    border-left: 8px solid ;
+    width: 38%;
+    padding: 10px;
+    box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 209px -76px rgba(0,0,0,0.75); 
+}
+footer{
+    text-align: center;
+}
